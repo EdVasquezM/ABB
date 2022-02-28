@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/drawer_offline_title">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/discovery_switch"
+                    android:title="@string/drawer_disc_switch"
+                    app:actionLayout="@layout/connections_switch"/>
+                <item
+                    android:id="@+id/advertising_switch"
+                    android:title="@string/drawer_adv_switch"
+                    app:actionLayout="@layout/connections_switch"/>
+                <item
+                    android:id="@+id/end_point_count_view"
+                    android:title="@string/drawer_ep_count"
+                    app:actionLayout="@layout/abb_coins_layout"/>
+                <item
+                    android:id="@+id/end_connections"
+                    android:title="@string/drawer_end_connections"/>
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/open_abb_file"
+        android:title="@string/drawer_open_file"
+        android:icon="@drawable/ic_menu_open"/>
+    <item
+        android:id="@+id/close_ads"
+        android:title="@string/close_ad_hint"
+        android:icon="@drawable/ic_close_ads"/>
+    <item
+        android:id="@+id/close_owner"
+        android:title="@string/drawer_close_owner"
+        android:icon="@android:drawable/ic_notification_clear_all"/>
+</menu>

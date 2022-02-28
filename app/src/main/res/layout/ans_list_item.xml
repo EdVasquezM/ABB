@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/ans_card_view"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:padding="@dimen/padding_half"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/margin_half"
+    app:cardBackgroundColor="@color/colorBase"
+    app:contentPadding="@dimen/padding_half">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/ans_owner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/show_view"
+            android:layout_toStartOf="@+id/show_view"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scrollHorizontally="true"
+            android:gravity="center_vertical"
+            android:padding="@dimen/padding"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"/>
+
+        <RelativeLayout
+            android:id="@+id/show_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="@dimen/margin_half"
+            android:layout_marginRight="@dimen/margin_half">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/ans_date_view"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding"
+                android:visibility="gone"/>
+
+            <android.support.design.button.MaterialButton
+                android:id="@+id/show_ans_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Button"
+                android:textColor="@color/colorAccentInverse"
+                android:padding="@dimen/padding_half"
+                android:gravity="center"
+                app:icon="@drawable/ic_abb_coin"
+                app:iconTint="@color/colorAccentInverse"
+                app:backgroundTint="@color/colorAccent"
+                app:cornerRadius="@dimen/rounded_corners" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

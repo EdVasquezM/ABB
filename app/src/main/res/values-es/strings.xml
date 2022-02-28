@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="email_input_hint">Correo Electrónico</string>
+    <string name="password_input_hint">Contraseña (opcional)</string>
+    <string name="action_register">"Registro de usuario "</string>
+    <string name="error_invalid_email">Esta dirección de correo electrónico no es válida</string>
+    <string name="error_invalid_password">Esta contraseña es demasiado corta es opcional</string>
+    <string name="google_needed">Se necesita Google Play Services para las conexiones offline</string>
+    <string name="permission_rationale">aBlueBook necesita permisos para su funcionamiento</string>
+    <string name="owner_prompt">Ingrese una dirección de correo electrónico para identificar sus eForms</string>
+    <string name="menu_cancel">Cancelar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_delete">Borrar</string>
+    <string name="menu_save">Salvar</string>
+    <string name="menu_attach">"Adjuntar "</string>
+    <string name="menu_create_abb">"Generar archivo .abb "</string>
+    <string name="drawer_close_owner">"Cerrar la sesión "</string>
+    <string name="drawer_open_file">Abrir .abb/.abba</string>
+    <string name="drawer_offline_title">"Conexiones offline: "</string>
+    <string name="drawer_adv_switch">Compartir contenido</string>
+    <string name="drawer_disc_switch">Buscar contenido compartido</string>
+    <string name="drawer_ep_count">Usuarios conectados:  %1$s</string>
+    <string name="empty_ef_list_message">No hay eForms, intenta agregar alguno !!!</string>
+    <string name="empty_q_list_message">Ahora agregue algunas preguntas</string>
+    <string name="q_hint">Ps: %1$s</string>
+    <string name="a_hint">Rs: %1$s</string>
+    <string name="chose_e_form">Seleccione un eForm</string>
+    <string name="unlock_answer_hint">%1$s para desbloquear.</string>
+    <string name="export_csv_hint">%1$s exportar a .csv</string>
+    <string name="getting_date_fail_msg">No se puede obtener la fecha de la última modificación</string>
+    <string name="ans_after_ef_msg">La última fecha de modificación de eForm fue antes de la respuesta.\n
+        Mostrando solo respuestas por orden de aparición</string>
+    <string name="sel_image_title">Obtenga una imagen para adjuntar</string>
+    <string name="send_by">Enviar por:</string>
+    <string name="exit_msg">¿Seguro que desea salir?</string>
+    <string name="file_generated_msg">El archivo está listo y disponible en el directorio abb</string>
+    <string name="discovery_msg">Su dispositivo está buscando contenido offline de abb.</string>
+    <string name="send_by_default_msg">Intentando compartir contenido en línea de forma predeterminada.\n
+        Si desea compartirlo sin conexión, simplemente cambie las opciones en el menú de arriba a la izquierda o presione Aceptar y vuelva a intentarlo.</string>
+    <string name="handle_file_fail_msg">No se puede manejar este archivo (solo archivos .abb y .abba)</string>
+    <string name="get_form_msg">" Obtuvo un eForm! (Estado: %1$s)"</string>
+    <string name="opening_file_msg">Abriendo el archivo</string>
+    <string name="sharing_offline">Compartiendo offline</string>
+    <string name="receive_answer">Recibió una respuesta para: %1$s</string>
+    <string name="share_all_hint">Compartir a todos</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="error_field_required">este campo es requerido</string>
+    <string name="new_e_form_last_modified_date_msg">Este es un nuevo eForm</string>
+    <string name="error_already_exist">Ya existe</string>
+    <string name="fail_message">Algo salió mal. Por favor, vuelva a intentarlo:</string>
+    <string name="success_message">¡¡Operación exitosa!!</string>
+    <string name="image_attached">Operación exitosa e imagen adjunta</string>
+    <string name="deleted">item eliminado</string>
+    <string name="image_deleted">Imagen eliminada</string>
+    <string name="undo">Deshacer</string>
+    <string name="q_num_hint">Pregunta #%1$s</string>
+    <string name="new_ef_name_hint">Ingrese un nombre para el nuevo eForm</string>
+    <string name="new_ef_tapper_prompt">eForm tipo tapper</string>
+    <string name="new_ef_comments_hint">Ingrese los comentarios para el nuevo eForm (opcional)</string>
+    <string name="new_ef_tapper_tooltip">Tapper es un formulario electrónico con preguntas que serán respondidas una a una tocando en una pantalla de entrada de respuesta, es mejor para preguntas en tiempo real.</string>
+    <string name="question_input_hint">Escribe una pregunta</string>
+    <string name="answer_input_hint">Escribe una respuesta</string>
+    <string name="spinner_prompt">Tipo de pregunta:</string>
+    <string name="open_a_input_hint">Campo para responder</string>
+    <string name="q_type_essay">Respuesta abierta</string>
+    <string name="q_type_multi">Opción multiple</string>
+    <string name="no_one_connected">No hay nadie conectado</string>
+    <string name="drawer_end_connections">Finaliza todas las conexiones offline</string>
+    <string name="close_ad_hint">Quitar publicidad!</string>
+    <string name="one_buy_msg">Para quitar toda la publicidad para siempre en esta instalación, debera realizar un pago pequeño una sola vez.</string>
+    <string name="restart_msg">Debe reiniciar la app para aplicar cambios</string>
+    <string name="download_abb_message">Para acceder a este archivo (.abb/.abba) usa aBlueBook: https://play.google.com/store/apps/details?id=com.sidemvm.ed.abluebook</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorPrimaryDark"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        app:behavior_hideable="false">
+
+        <include layout="@layout/abb_coins_layout"/>
+
+        <android.support.design.button.MaterialButton
+            android:id="@+id/import_csv_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/colorAccentInverse"
+            android:gravity="center_vertical"
+            android:layout_gravity="end"
+            android:padding="@dimen/padding"
+            app:icon="@drawable/ic_abb_coin"
+            app:iconTint="@color/colorAccentInverse"
+            app:backgroundTint="@color/colorAccent"
+            app:cornerRadius="@dimen/rounded_corners" />
+    </android.support.v7.widget.LinearLayoutCompat>
+    
+    <android.support.v7.widget.RecyclerView 
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:behavior_hideable="true"
+        tools:context=".listDialogFrag"
+        tools:listitem="@layout/ans_list_item" />
+</android.support.v7.widget.LinearLayoutCompat>

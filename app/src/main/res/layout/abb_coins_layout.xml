@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginEnd="@dimen/margin_half"
+    android:layout_marginRight="@dimen/margin_half"
+    android:padding="@dimen/padding_half">
+
+    <TextView
+        android:id="@+id/abb_coin_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_half"
+        android:textColor="@color/colorAccent"
+        android:drawableStart="@drawable/ic_abb_coin"
+        android:drawableLeft="@drawable/ic_abb_coin"
+        android:gravity="center_vertical"/>
+
+    <android.support.design.button.MaterialButton
+        android:id="@+id/a_count_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="@dimen/padding"
+        android:paddingLeft="@dimen/padding"
+        android:paddingStart="@dimen/padding"
+        android:paddingRight="@dimen/padding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        app:backgroundTint="@color/colorAccent"
+        app:cornerRadius="@dimen/rounded_corners"/>
+</android.support.v7.widget.LinearLayoutCompat>

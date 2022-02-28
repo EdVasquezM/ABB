@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.TextInputLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColorHint="@android:color/secondary_text_light">
+
+    <EditText
+        android:id="@+id/q_input_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/open_a_input_hint"
+        android:inputType="textMultiLine"
+        android:layout_margin="@dimen/margin_half"
+        android:padding="@dimen/padding_half"
+        android:background="@drawable/depth_background"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/secondary_text_light"/>
+</android.support.design.widget.TextInputLayout>
